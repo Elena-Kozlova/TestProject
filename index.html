@@ -11,13 +11,7 @@
     <link type='text/css' rel='stylesheet' href='css/liquidcarousel.css' />
     <script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
     <script type="text/javascript" src="js/jquery.liquidcarousel.pack.js"></script>
-    <script type="text/javascript">
-        <!--
-          $(document).ready(function() {
-              $('#liquid1').liquidcarousel({height:129, duration:100, hidearrows:false});
-          });
-      -->
-    </script>
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 <div class="fon">
@@ -72,12 +66,24 @@
                 <div class="tabb">
                     <h1>Самые популярные направления:</h1>
                     <div class="tabs">
-                        <div class="tab active">Мальдивы</div>
-                        <div class="tab">Индонезия</div>
-                        <div class="tab">Перу</div>
+                        <div id="tabHeader1" class="tab active">
+                            <a id="tabLink1" href="#">
+                                Мальдивы
+                            </a>
+                        </div>
+                        <div id="tabHeader2" class="tab">
+                            <a id="tabLink2" href="#">
+                                Индонезия
+                            </a>
+                        </div>
+                        <div id="tabHeader3" class="tab">
+                            <a id="tabLink3" href="#">
+                                Перу
+                            </a>
+                        </div>
                     </div>
                     <div class="clear"></div>
-                    <div hidden="hidden" class="tab-content">
+                    <div id="tabContent1" class="tab-content">
                         <p>Денситомер дает такыровидный эксикатор, и этот процесс может повторяться многократно.
                             Несмотря на кажущуюся простоту эксперимента, глей ускоряет ортштейн при любом их
                             взаимном расположении.</p>
@@ -98,7 +104,7 @@
                             </div>
                         </form>
                     </div>
-                    <div hidden="hidden" class="tab-content">
+                    <div id="tabContent2" class="tab-content">
                         <p>предсказаний теоретической модели явления. Промерзание самопроизвольно. Принимая во внимание
                             искусственность границ элементарной почвы и произвольность ее положения в пространстве:</p>
                         <form action="#" method="post">
@@ -110,7 +116,7 @@
                             </div>
                         </form>
                     </div>
-                    <div  class="tab-content">
+                    <div id="tabContent3" class="tab-content">
                         <p>Понятие политического конфликта отражает идеологический коммунизм, о чем будет подробнее сказано ниже.
                             Кризис легитимности категорически иллюстрирует англо-американский тип политической культуры.</p>
                         <form action="#" method="post">
