@@ -22,15 +22,15 @@ function initTabs() {
 
     activateTab(0);
 
-    $("#tabLink1").bind("click", function () {
+    $("#tabHeader1").bind("click", function () {
         activateTab(0);
     });
 
-    $("#tabLink2").bind("click", function () {
+    $("#tabHeader2").bind("click", function () {
         activateTab(1);
     });
 
-    $("#tabLink3").bind("click", function () {
+    $("#tabHeader3").bind("click", function () {
         activateTab(2);
     });
 }
