@@ -180,6 +180,19 @@ header {
     width: 546px;
 }
 
+.h-left {
+    /*margin-bottom: -15px;*/
+    color: #233448;
+    margin: 5px;
+}
+
+.p-left {
+    color: #233448;
+    position: relative;
+    margin: 5px;
+    text-align: left;
+}
+
 .work {
     height: 102px;
     width: 546px;
@@ -191,7 +204,8 @@ header {
 }
 
 ol {
-    list-style: none;
+    /*list-style: none;*/
+    list-style-image: url("../images/ellipse1.png");
 }
 
 .add {
@@ -367,7 +381,9 @@ a {
 
 p {
     text-align: left;
+    color: #233448;
 }
+
 
 
 
