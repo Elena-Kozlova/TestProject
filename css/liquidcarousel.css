@@ -20,6 +20,8 @@
 	height:126px;
 	width:64px;
 	background-image:url('../images/next.png');
+    background-position: center;
+    background-repeat: no-repeat;
 	float:right;
 	margin:0;
 	padding:0;
